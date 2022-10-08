@@ -1,3 +1,4 @@
+//HW1 code is here: Justin Boyer 0ct 8, 2022
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class App extends StatelessWidget {
     );
   }
 }
-
+//Page 1
 class HomePage extends StatefulWidget {
   const HomePage({super.key, required this.title});
   final String title;
@@ -40,6 +41,7 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
+//Page 2
 class SecondPage extends StatefulWidget {
   const SecondPage({super.key, required this.title});
   final String title;
@@ -62,7 +64,7 @@ class _SecondPageState extends State<SecondPage> {
   }
 }
 
-
+//Handle Navigation
 class NavText extends StatefulWidget {
   const NavText({super.key, required this.pageText, required this.navPage});
   final String pageText;
