@@ -1,0 +1,25 @@
+I evaluated 4 approaches for storing data for my app:
+1) UserDefaults: ios has a key vaule pair storage called user defaults.
+I used this for storing switch toggle status in the app part of HW 2. 
+Pros: it is simple to use, and uses very little memory.
+Cons: Not good for large objects
+This will be helpful if I want to store things like settings, but will won't work for roast
+profiles
+
+2) DynamoDB: A document DB service on AWS cloud plafort.
+Pros: Roast profiles saved on the cloud could be accessed anywhere- not just on the iphone they
+were saved on. The storage paradigm works well, basically querying a JSON object. This is probably the
+easiest data structure to save the roast profiles in. Cons: More complicated to set up seperate cloud
+for users to acees their saved reciepies. Also AWS costs money so I won't do this.
+
+3) SQLite: This is an internal db with an SQL like structure. 
+Pros: SQL commands for database querries are pretty standard making it easy to use.
+Internal storage, so no cloud costs
+Cons: Saving data as JSON makes more sense to me and I'd like to do that if possible
+
+4) Custom internal document db solution
+We talked about this option in class - basically create a way to store and access save roast profiles
+like DynamoDB but locally so that I'm not dependent on the cloud.
+Pros: The storage pardigm I want - key to JSON pairs for retrieving roast profile
+Cons: a bit more work to we this up and won't have the optimazations that a pro solution like DynamoDB would.
+
