@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C56EE572918694F00451133 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C56EE562918694F00451133 /* Timer.swift */; };
+		3C56EE592918B6EB00451133 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C56EE582918B6EA00451133 /* readme.md */; };
 		3CE52D012904A8A200560745 /* HW2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE52D002904A8A200560745 /* HW2App.swift */; };
 		3CE52D032904A8A200560745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE52D022904A8A200560745 /* ContentView.swift */; };
 		3CE52D052904A8A500560745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE52D042904A8A500560745 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C56EE562918694F00451133 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		3C56EE582918B6EA00451133 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		3CE52CFD2904A8A200560745 /* HW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE52D002904A8A200560745 /* HW2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2App.swift; sourceTree = "<group>"; };
 		3CE52D022904A8A200560745 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 		3CE52CF42904A8A200560745 = {
 			isa = PBXGroup;
 			children = (
+				3C56EE582918B6EA00451133 /* readme.md */,
 				3CE52CFF2904A8A200560745 /* HW2 */,
 				3CE52D102904A8A600560745 /* HW2Tests */,
 				3CE52D1A2904A8A600560745 /* HW2UITests */,
@@ -107,6 +112,7 @@
 				3CE52D062904A8A500560745 /* Preview Content */,
 				3CF137842905CC0C006F4E52 /* UserSettings.swift */,
 				3CF137882905E1FE006F4E52 /* ViewModel.swift */,
+				3C56EE562918694F00451133 /* Timer.swift */,
 			);
 			path = HW2;
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C56EE592918B6EB00451133 /* readme.md in Resources */,
 				3CE52D082904A8A500560745 /* Preview Assets.xcassets in Resources */,
 				3CE52D052904A8A500560745 /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +276,7 @@
 				3CF137892905E1FE006F4E52 /* ViewModel.swift in Sources */,
 				3CE52D032904A8A200560745 /* ContentView.swift in Sources */,
 				3CF137852905CC0C006F4E52 /* UserSettings.swift in Sources */,
+				3C56EE572918694F00451133 /* Timer.swift in Sources */,
 				3CE52D012904A8A200560745 /* HW2App.swift in Sources */,
 				3CE52D2B2904B08C00560745 /* CircleImage.swift in Sources */,
 			);

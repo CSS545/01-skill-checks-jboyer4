@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CircleImage: View {
-    @StateObject var settings: ViewModel
+    @ObservedObject var settings: ViewModel
     var body: some View {
         Image(settings.isOn ? "espresso":"AdobeStock_151199591-Coffee-Beans")
             .resizable()

@@ -11,6 +11,7 @@ struct ContentView: View {
     @ObservedObject var settings = ViewModel()
     var body: some View {
         VStack {
+            TimerView()
             CircleImage(settings: settings)
             UserSettings(settings: settings)
         }
